@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: auto;
+    background-color: #111;
+  }
+  
+  .banner {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    padding: 16px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .detalhes {
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  button.assistir, button.baixar {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button.baixar {
+    background-color: #444;
+  }
+  
+  .sinopse, .elenco {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .botoes-secundarios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .botoes-secundarios button {
+    flex: 1 1 45%;
+    background: #222;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  
+  .abas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+  }
+  
+  .abas span {
+    font-size: 14px;
+    color: #aaa;
+    cursor: pointer;
+  }
+  
+  .abas .ativo {
+    color: #fff;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+  }
+
+  .comentarios {
+    margin-top: 20px;
+  }
+  
+  .comentarios button {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .comentarios-box {
+    background-color: #1a1a1a;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  
+  
